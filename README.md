@@ -36,7 +36,7 @@ Simple and lightweight by design.
 ## Preview
 
 <p align="center">
-  <img src="preview.gif" width="420">
+  <img src="Preview.gif" width="420">
 </p>
 
 ---
