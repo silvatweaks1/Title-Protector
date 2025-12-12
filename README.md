@@ -1,33 +1,28 @@
-<!-- DARK THEME README -->
-
 <h1 align="center">
-  🛡️ <span style="color:#4ade80">Title Protector</span>
+  <span style="color:#4ade80">Title Protector</span>
 </h1>
 
-<p align="center" style="color:#8b8b8b">
-  Last update: <b>12/12/2025</b><br>
-  A simple protection layer that detects suspicious window titles and closes the application
+<p align="center" style="color:#7f7f7f">
+  Minimal window-title detection layer · Last update: 12/12/2025
 </p>
 
 ---
 
-## 🌑 About
+## Overview
 
-**Title Protector** is a minimal security layer designed to detect windows with suspicious titles — usually associated with analysis tools, reverse engineering, or debugging.
+Title Protector is a lightweight defensive layer that checks active window titles and terminates the application if a blocked title is detected.
 
-When a forbidden title is detected, the application immediately terminates itself, acting as a simple but useful complementary protection.
-
-> ⚠️ This technique is weak and should not replace real, robust protections. It is only an additional layer.
+This is not a robust protection method. It is intended only as an additional layer.
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
-- Monitors currently opened window titles.
-- Compares each title against a configurable list.
-- If a match is found, the application closes instantly.
+- Monitors the titles of currently opened windows  
+- Compares them against a configurable blocklist  
+- Terminates the application when a match is found  
 
-Common examples:
+Example blocklist:
 
 ```txt
 x64dbg
@@ -38,28 +33,24 @@ Process Hacker
 Cheat Engine
 ```
 
-All fully configurable inside the project.
+---
+
+## Configuration
+
+The blocklist is fully editable.  
+No external dependencies.  
+Simple and lightweight by design.
 
 ---
 
-## 🧩 Customization
-
-The list of suspicious titles is fully editable.
-
-- Add or remove entries anytime  
-- No external dependencies  
-- Keeps the project simple and lightweight  
-
----
-
-## 🖼️ Preview
+## Preview
 
 <p align="center">
-  <img src="preview.gif" alt="Preview" width="450">
+  <img src="preview.gif" width="420">
 </p>
 
 ---
 
 <p align="center" style="color:#5f5f5f">
-  SilvaTweaks ❤
+  SilvaTweaks
 </p>
