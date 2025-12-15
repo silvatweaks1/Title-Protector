@@ -1,18 +1,18 @@
-## Overview
+## Visão geral
 
-Title Protector is a lightweight defensive layer that checks active window titles and terminates the application if a blocked title is detected.
+O Title Protector é uma camada defensiva leve que verifica os títulos das janelas ativas e encerra o aplicativo se um título bloqueado for detectado.
 
-This is not a robust protection method. It is intended only as an additional layer.
+Este não é um método de proteção robusto. Ele se destina apenas a ser uma camada adicional.
 
 ---
 
-## How It Works
+## Como funciona
 
-- Monitors the titles of currently opened windows  
-- Compares them against a configurable blocklist  
-- Terminates the application when a match is found  
+- Monitora os títulos das janelas abertas no momento
+- Compara-os com uma lista de bloqueios configurável
+- Encerra o aplicativo quando encontra uma correspondência  
 
-Example blocklist:
+Exemplo de lista de bloqueios:
 
 ```txt
 x64dbg
@@ -25,11 +25,11 @@ Cheat Engine
 
 ---
 
-## Configuration
+## Configuração
 
-The blocklist is fully editable.  
-No external dependencies.  
-Simple and lightweight by design.
+A lista de bloqueios é totalmente editável.  
+Sem dependências externas.  
+Simples e leve por padrão.
 
 ---
 
@@ -37,10 +37,4 @@ Simple and lightweight by design.
 
 <p align="center">
   <img src="Preview.gif" width="420">
-</p>
-
----
-
-<p align="center" style="color:#5f5f5f">
-  SilvaTweaks
 </p>
